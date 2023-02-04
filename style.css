@@ -1,0 +1,69 @@
+:root{
+    --bg-color:rgb(245, 245, 245);
+    --text-color: rgb(121, 85, 72);
+    --main-color:rgb(62, 39, 35);
+}
+body{
+    background-color: var(--bg-color);
+}
+
+.container .navbar-brand{
+    color:var(--main-color);
+}
+#navbarbrand .nav-item{
+    color: var(--text-color);
+}
+
+/* header */
+.masthead .text-heading{
+    color: var(--main-color);
+}
+
+/*Profile*/
+.page-section{
+    padding: 6rem 0;
+}
+.container{
+    max-width: 960px;
+}
+.page-section .section-heading{
+    color: var(--main-color);
+}
+.team-member .profile{
+    width:14rem;
+    height:14rem;
+}
+.team-member .btn-social{
+    cursor: pointer;
+    height: 2.6rem;
+    width: 2.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+    
+}
+.simple-text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+/*Projects*/
+#portfolio .portfolio-item{
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 6px 18px #e1e1e1;
+}
+.center-cropped{
+    object-fit: cover;
+    object-position: center;
+    height: 270px;
+    width: 100%;
+}
+/*About me*/
+.about-text{
+    text-decoration: underline;
+}
