@@ -63,7 +63,25 @@ body{
     height: 270px;
     width: 100%;
 }
+.portfolio-caption{
+    padding: 1.5rem;
+    text-align: center;
+
+}
+.portfolio-caption .portfolio-caption-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+
+}
+.portfolio-caption .portfolio-caption-subheading{
+    font-style: italic;
+    color: var(--text-color);
+}
 /*About me*/
 .about-text{
     text-decoration: underline;
 }
+
+
+
